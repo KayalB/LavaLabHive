@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+body{
+  font-family: "Helvetica", "sans-serif";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+#hive {
+    color: #9730FF;
+    font-family: "Helvetica", "sans-serif";
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-bottom: 28px;
+    padding-left: 72px;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+#profile {
+  padding-top: 25px;
+  padding-right: 74px;
+  width: 44px;
+  height: auto;
+}
+
+hr {
+  background-color: #EEEEEE;  
+  height: 1px;
+  border: none;  
+  padding-bottom: 0%;
+}
+/* 
+.active {
+  background-color: #04AA6D;
+} */
+#back {
+  margin-top: -8px;
+  height: default;
+  background: radial-gradient(circle at 50% 50%, #F3D9FF 0%, #fffcfc 100%);
+}
+.centers {
+  padding-left: 70px;
+  padding-top: 125px;
+
+}
+h2{
+  font-size: 48px;
+  font-family: "Helvetica", "sans-serif";
+  font-weight: normal;
+
+}
+
+.button-container {
+  padding-top: 100px;
+  display: flex;
+  height: 55px;
+  gap: 25px;
+  padding-bottom: 75px;
+}
+
+.back {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border: 1px solid #C8C8C8;
+}
+
+.finish {
+  cursor: pointer;
+  background-color: #1A1225;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.box {
+  background-color: #FEF9F8;
+  border: 1px solid #C8C8C8;
+  height: 158px;
+  width: 272px;
+  border-radius: 10px;
+}
+.box > p{
+  line-height: 100px;
+  padding-left: 10px;
+  color: green;
+}
+
+.first_row_box{
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.first_row_box > a > img{
+  padding-left: 30px;
+  width: auto;
+  height: 26px;
+}
+
+h3{
+  font-size: 18px;
+  font-weight: normal;
+  padding-left: 30px;
+  margin-top: 6px;
+}
+
+h4{
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: -10px;
+}
+
+.button{
+  background-color: white;
+  width: 97px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid #C8C8C8;
+  margin-right: 30px;
+  font-size: 12px;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+
+
+.wrapper-grid {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 314px);
+  grid-row-gap: 42px;
+}
+
+
+
+
+</style>
+</head>
+<body style="margin: 0px;">
+<div class="flex-container">
+  <div style="background-color: #fffcfc;">
+    <ul>
+      <li ><a id="hive" href="#home">hive</a></li>
+      <li style="float:right"><a href="https://www.youtube.com/channel/UCN_u5w69V9wUZYG8WeJWuNg"><img id="profile" src="assets/pai_sho.png"></a></li>
+    </ul>
+</div>
+  <hr>
+  <div id="back">
+    <div class="centers">
+        <h2>Connect your favorite tools.</h2>
+        <div class="wrapper-grid">
+        
+          <div class="box">
+            <div class="first_row_box">
+              <a href="https://www.figma.com/"><img src="assets/figma.png"></a> 
+              <button class="button">Connect</button>
+            </div>
+            <h3>Figma</h3>
+            <h4>Stay up to date with your team's latest designs.</h4>
+        </div>
+
+        <div class="box">
+          <div class="first_row_box">
+            <a href="https://drive.google.com/"><img src="assets/drive.png"></a> 
+            <button class="button">Connect</button>
+          </div>
+          <h3>Google Drive</h3>
+          <h4>Access all of your documents and information.</h4>
+          
+
+        </div>
+        <div class="box">
+          <div class="first_row_box">
+            <a href="https://slack.com/solutions/sales?d=7013y000002aMjeAAE&nc=7013y000002EkRzAAK&utm_source=google&utm_medium=paid_search&utm_campaign=AMER_US_Evergreen_SLKCON_Google_SLACK-PG-ENT-all_BR&utm_content=slack-pg-ent-all-industries-all-broadmatchtest_solutions-sales_7013y000002amjeaae7013y000002aMjeAAE&utm_term=slackforsales&gad_source=1&gclid=Cj0KCQiA5fetBhC9ARIsAP1UMgGWjkL_FGjfZknBXQm25NPQvXQ8giOm2SwJxivlpCaMc-z5sLHfh4kaAiR0EALw_wcB&gclsrc=aw.ds"><img src="assets/slack.png"></a> 
+            <button class="button">Connect</button>
+          </div>
+          <h3>Slack</h3>
+          <h4>Communicate seamlessly with your teammates.</h4>
+          
+
+        </div>
+
+        <div class="box">
+          <div class="first_row_box">
+            <a href="https://www.notion.so/templates/home-page"><img src="assets/notion.png"></a> 
+            <button class="button">Connect</button>
+          </div>
+          <h3>Notion</h3>
+          <h4>Sync all of your notes, team docs, and other important information.</h4>
+          
+
+        </div>
+        <div class="box">
+          <div class="first_row_box">
+            <a href="https://miro.com/?gclsrc=aw.ds&&utm_source=google&utm_medium=cpc&utm_campaign=S%7CGOO%7CBRN%7CUS%7CEN-EN%7CBrand%7CExact&utm_adgroup=&adgroupid=140324301985&utm_custom=18258206285&utm_content=668037264239&utm_term=miro%20board&matchtype=e&device=c&location=9030933&gad_source=1&gclid=Cj0KCQiA5fetBhC9ARIsAP1UMgE_MELobSC3GS93ttzu-aTQQgpWzDHS03BcpwqTyaZMEvuv86aQNjkaAo0JEALw_wcB"><img src="assets/miro.png"></a> 
+            <button class="button">Connect</button>
+          </div>
+          <h3>Miro</h3>
+          <h4>Unlock the power of collaboration to distill insights from data.</h4>
+          
+
+        </div>
+
+        <div class="box">
+          <div class="first_row_box">
+            <a href="https://www.airtable.com/v1"><img src="assets/airtable.png"></a> 
+            <button class="button">Connect</button>
+          </div>
+          <h3>Airtable</h3>
+          <h4>Keep your data organized in a spreadsheet-database format.</h4>
+          
+
+        </div>
+        <div class="box">
+          <div class="first_row_box">
+            <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=CPKwaAgq_ZdjnMsDJtOUPqtm1qAyS5ImndfGf_e6EEvKIi9_PLwgAEAEguVRgyd7ohsijkBmgAZei7uwDyAEByAPYIKoEX0_QmF3QQ7CuPP_UBDCpQksdVXtOzb43MpaFS6cHizViOOc-RDP1IpvC-KsUFtSCjZzO_ijXk32xnnaPbQk1FhO9jLiC-4MmH2XrUoNtmNZKggvqS7XXrU3dM0GjPCgcwASlupSmggSABZBOiAX-4PebRKAGZoAH0d2RE4gHAZAHAagH67ixAqgHpr4bqAe8rbECqAe5q7ECqAfotbECqAe5mrECqAfz0RuoB-7SG6gH_5yxAqgHytwbqAeSr7ECqAe7pLECqAeSprECqAfYprECqAfetbECqAfbqrECqAfQqrECqAfcsLECqAe_ubECqAfqsbECqAequLECqAeUuLECqAfsuLECqAe-t7ECqAeyu7ECqAezu7ECqAfDvbECqAfEvbECoAiVmqcEsAgB0ggmEAIyBIfggA46CcLhgICAgASCQEIBBEjR7PMqUAlY2PCGtOSQhAOaCS1odHRwczovL3d3dy5hdGxhc3NpYW4uY29tL3NvZnR3YXJlL2NvbmZsdWVuY2WxCa0ud-ZubapXuQn__grjVb0yPvgJAeALAaoMAggB6AwGqg0CVVPIDQGCFBwIAhIYY29uZmx1ZW5jZSBvZmZpY2lhbCBzaXRlyBSq4PmGt-zorzvQFQGYFgH4FgGAFwGSFwkSBwgBEAMY6AK6FwI4AeAXAg&gclid=Cj0KCQiA5fetBhC9ARIsAP1UMgHicBN9yXFvHUPkC8QL_wRLXtOq8Ycv_GTCF1Fp4ouRn_MJ7nm1QUkaAtv5EALw_wcB&ved=2ahUKEwj9r_2z5JCEAxV8M0QIHUTkCWoQ0Qx6BAgIEAE&nis=8&cid=CAASFORowlOqB10O1J2JiFPswU2YyNnV&dblrd=1&sival=AF15MEBulDRGP4W52GRiDKCefOnYjTpc2TEg2LEob-MaLyHQntmXv7FGY6xaWI9ORU7CLBXRRMddkavUH6zAKi4zhHRD8IgGTRovFDOhLBJikeGREusJ4tsYVCPxe0aS2HSxi6W73DxroOxGzf1pbv5qSJfsFRBttRlXmE78jV7I7n1mbkDRK_I&sig=AOD64_2AAebgTOK0L-HHvivlubZysgU5SQ&adurl=https://ad.doubleclick.net/searchads/link/click%3Flid%3D43700074526454771%26ds_s_kwgid%3D58700008021563201%26ds_a_cid%3D42289111%26ds_a_caid%3D18312196222%26ds_a_agid%3D138055851301%26ds_a_fiid%3D%26ds_a_lid%3Dkwd-1636313515122%26ds_a_extid%3D%26%26ds_e_adid%3D672230313502%26ds_e_matchtype%3Dsearch%26ds_e_device%3Dc%26ds_e_network%3Dg%26%26ds_url_v%3D2%26ds_dest_url%3Dhttps://www.atlassian.com/software/confluence%3Fgclsrc%3Daw.ds%26%26aceid%3D%26adposition%3D%26adgroup%3D138055851301%26campaign%3D18312196222%26creative%3D672230313502%26device%3Dc%26keyword%3Dconfluence%2520official%2520site%26matchtype%3Dp%26network%3Dg%26placement%3D%26ds_kids%3Dp74526454771%26ds_e%3DGOOGLE%26ds_eid%3D700000001542923%26ds_e1%3DGOOGLE%26gad_source%3D1"><img src="assets/confluence.png"></a> 
+            <button class="button">Connect</button>
+          </div>
+          <h3>Confluence</h3>
+          <h4>Create content, collaborate on work, and organize and share information</h4>
+          
+
+        </div>
+
+        <div class="box">
+          <div class="first_row_box">
+            <a href="https://dovetail.com/"><img src="assets/dovetail.png"></a> 
+            <button class="button">Connect</button>
+          </div>
+          <h3>Dovetail</h3>
+          <h4>Organize and tag your research in a collaborative platform.</h4>
+        </div>
+      </div>
+
+      <div class="button-container">
+        <button class="back">Back</button>
+        <button class="finish">Finish</button>
+      </div>
+    </div>
+
+
+    
+  </div>
+
+
+
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
+
+
