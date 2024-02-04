@@ -54,8 +54,8 @@ fbtn.addEventListener('click', () => {
             }, 700); // Delay matches the transition duration in milliseconds (0.7 seconds)
         }        
     });
-    if (all_clicked){
-        
+    if (all_clicked) {
+        alert("Your account is fully set up!");
     }
 });
 
